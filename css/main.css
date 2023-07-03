@@ -1,0 +1,240 @@
+@charset "UTF-8";
+/* Estilos generales */
+/* Estilos específicos de las habitaciones */
+/* Estilos del footer */
+/* Estilos para el formulario de contacto */
+.container_ {
+  margin: 100;
+  padding: 100;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7));
+  height: 10vh;
+  background-color: #B8860B;
+}
+
+.logo {
+  margin: 50;
+}
+
+.container-fluid {
+  background-color: cornsilk;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 800;
+  padding: 80;
+  background-color: cornsilk;
+}
+
+.barranavegadora {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  align-content: flex-end;
+}
+
+h1 {
+  color: #333;
+}
+
+h2 {
+  color: #333;
+  text-align: center;
+  color: #333;
+  text-align: center;
+}
+
+h3 {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+header {
+  background-color: #B8860B;
+  padding: 5px;
+}
+
+.habitacion {
+  margin-bottom: 30px;
+}
+.habitacion img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+footer {
+  background-color: cornsilk;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  justify-content: right;
+}
+
+.contacto-caja form .form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.contacto-caja form .form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.contacto-caja form .form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  height: 100px;
+}
+.contacto-caja form .form-group button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+.contacto-caja form .form-group button:hover {
+  background-color: #0056b3;
+}
+
+.actividad {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.actividad img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.actividad h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.actividad p {
+  font-size: 16px;
+}
+
+.volver-inicio {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.volver-inicio:hover {
+  background-color: #0056b3;
+}
+
+.caja-atractiva {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.caja-atractiva h2 {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+}
+.caja-atractiva p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.bienvenido {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.containers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+.form-groups {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type=email] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type=password] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: 10px;
+  border-radius: 30px;
+  background-color: #4CAF50;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .caja-atractiva {
+    padding: 10px;
+  }
+  .caja-atractiva h2 {
+    font-size: 20px;
+  }
+  .caja-atractiva p {
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
